@@ -3,4 +3,4 @@
 set -o errexit
 
 echo "Installing server dependencies..."
-npm install
+npm install --legacy-peer-deps

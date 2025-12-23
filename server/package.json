@@ -12,23 +12,29 @@
   "dependencies": {
     "@google/generative-ai": "^0.24.1",
     "@huggingface/inference": "^2.8.1",
-    "@langchain/groq": "^0.0.5",
+    "@langchain/cohere": "^1.0.1",
+    "@langchain/community": "^1.1.1",
+    "@langchain/core": "^1.1.8",
+    "@langchain/groq": "^1.0.2",
     "@langchain/openai": "^0.0.19",
     "@langchain/textsplitters": "^0.1.0",
     "@tensorflow-models/universal-sentence-encoder": "^1.3.3",
     "@tensorflow/tfjs": "^4.22.0",
     "@xenova/transformers": "^2.17.2",
+    "bcryptjs": "^3.0.3",
     "cohere-ai": "^7.19.0",
     "cors": "^2.8.5",
     "dotenv": "^16.6.1",
     "express": "^4.21.2",
     "fs-extra": "^11.3.2",
     "groq-sdk": "^0.6.1",
-    "langchain": "^0.0.213",
+    "jsonwebtoken": "^9.0.3",
+    "langchain": "^1.2.3",
     "multer": "^1.4.5-lts.2",
     "node-fetch": "^2.7.0",
     "pdf-lib": "^1.17.1",
-    "pdfjs-dist": "^5.4.296"
+    "pdf-parse": "^1.1.1",
+    "tesseract.js": "^7.0.0"
   },
   "devDependencies": {
     "nodemon": "^3.0.1"
